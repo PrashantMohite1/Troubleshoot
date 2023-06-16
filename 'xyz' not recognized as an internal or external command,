@@ -1,0 +1,23 @@
+jar cmd madhe = "'xyz' is not recognized as an internal or external command," then how to resolve them 
+
+for ex - you opened cmd --> minikube + enter = les say we get error : 'minikube' is not recognized as an internal or external command,  
+
+SOLUTION :- 
+
+step 1 -:
+ 
+    go to location where minikube.exe files are located --> then copy file location --> go to environmental variables --> use variable for mohit :-
+                                                                                                                                        - click on path 
+                                                                                                                                        - enter variable name = PATH
+                                                                                                                                        - variable value = path of minikube.exe 
+                                                                                                                                        
+ step 2 -: go to minikube.exe file location and check actual name of that file 
+           ex - minikube_3.4.2                     minikube
+                (actaul name of file)              ( we are typing minikube on cmd )
+                change file name to 
+                 minikube.exe
+   
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                                                        
+
